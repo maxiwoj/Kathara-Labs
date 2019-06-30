@@ -1,4 +1,4 @@
-ifconfig eth0 20.0.0.2/24 up
+ifconfig eth0 20.0.0.2/24 hw ether 02:42:ac:14:00:04 up
 
 route add default gw 20.0.0.1
 

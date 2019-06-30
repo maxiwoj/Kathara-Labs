@@ -7,7 +7,7 @@ for pings in range(10):
     clientSocket = socket(AF_INET, SOCK_DGRAM)
     clientSocket.settimeout(1)
     message = 'test'
-    addr = ("20.0.0.2", 12000)
+    addr = ("30.0.0.1", 12000)
 
     start = time.time()
     clientSocket.sendto(message, addr)
